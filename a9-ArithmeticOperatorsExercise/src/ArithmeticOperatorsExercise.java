@@ -27,7 +27,6 @@ public class ArithmeticOperatorsExercise
         totalSeconds = in.nextInt();
         in.nextLine();
 
-
         seconds = totalSeconds % 60;
         minutes = (totalSeconds%3600) / 60;
         hours = totalSeconds / 3600;
