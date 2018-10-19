@@ -1,0 +1,2 @@
+- Make a program that reads a number between 1 and 999. It will translate that number into roman numbers.
+- If the read value is outside the requested range, the text "Incorrect value" will be displayed.
