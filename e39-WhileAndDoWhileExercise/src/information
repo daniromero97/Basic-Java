@@ -1,0 +1,2 @@
+- Generate random integers between 0 and 100 until you get 0.
+- The program will show each of the generated data and save the biggest random generated.
