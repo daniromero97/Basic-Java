@@ -3,14 +3,14 @@
       ----------------------------------
       | Primitive Type | Wrapper class |
       |--------------------------------|
-      | boolean	       | Boolean     |
-      | char	       | Character   |
-      | byte	       | Byte        |
-      | short	       | Short       |
-      | int	             | Integer     |
-      | long	       | Long        |
-      | float	       | Float       |
-      | double	       | Double      |
+      | boolean        | Boolean       |
+      | char           | Character     |
+      | byte           | Byte          |
+      | short          | Short         |
+      | int            | Integer       |
+      | long           | Long          |
+      | float          | Float         |
+      | double         | Double        |
       |--------------------------------|
 
 
