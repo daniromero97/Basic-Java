@@ -1,6 +1,6 @@
 package myPackage;
 
-public class myLib
+public class MyLib
 {
     // Evaluate if a number is even
     public static boolean isEven (int a)

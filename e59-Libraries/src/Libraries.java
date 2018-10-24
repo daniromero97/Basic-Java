@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import myPackage.myLib;
+import myPackage.MyLib;
 
 /*
     Author: Daniel Romero
@@ -28,8 +28,8 @@ public class Libraries
         a = in.nextInt();
         in.nextLine();
 
-        System.out.println("Even: " + myLib.isEven(a));
-        System.out.println("+50%: " + myLib.increaseHalf(a));
+        System.out.println("Even: " + MyLib.isEven(a));
+        System.out.println("+50%: " + MyLib.increaseHalf(a));
     }
 
     // Main method
