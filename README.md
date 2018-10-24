@@ -2,7 +2,7 @@
 
 ### Simple exercises and small explanations of java from 0.
 
-  - 1. Introduction
+  - (1) Introduction
       - Identifiers
       - Reserved words
       - Workspace, packages, classes and applications
