@@ -8,7 +8,7 @@
       - Workspace, packages, classes and applications
       - Console applications and methods
       - Comments
-  - 2. Type Of Data
+  - 2) Type Of Data
       - Numeric primitive data types
       - Boolean primitive data type
       - Character primitive data type
