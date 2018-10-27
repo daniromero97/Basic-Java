@@ -6,8 +6,8 @@ import java.util.Scanner;
 */
 
 
-// Class ClassMath
-public class ClassMath
+// Class MathClass
+public class MathClass
 {
     // Constants
     final Scanner in = new Scanner(System.in);
@@ -57,6 +57,6 @@ public class ClassMath
     // Main method
     public static void main (String args[])
     {
-        new ClassMath().reading();
+        new MathClass().reading();
     }
 }

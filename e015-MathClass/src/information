@@ -1,4 +1,4 @@
-- The class Math contains methods for performing basic numeric operations such as the elementary exponential, logarithm, square root, and trigonometric functions.
+- The Math class contains methods for performing basic numeric operations such as the elementary exponential, logarithm, square root, and trigonometric functions.
 - It is observed that in this library there are methods with the same name (abs, min, max, etc) but that they have different types of parameters.
 - Depending on the type of parameters, one method or another will be invoked.
 - Examples:
@@ -16,6 +16,7 @@
 
 
 
-- Official documentation:   https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
+- Official documentation:
+    https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
 
 
