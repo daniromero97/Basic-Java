@@ -1,17 +1,111 @@
-
-| OPERATOR | USE   | OPERATION       |                                                                                                                                  |
-|----------|-------|-----------------|----------------------------------------------------------------------------------------------------------------------------------|
-|   +=     | a+=b  | a = a + b       |                                                                                                                                  |
-|   -=     | a-=b  | a = a - b       |                                                                                                                                  |
-|   *=     | a*=b  | a = a * b       |                                                                                                                                  |
-|   /=     | a/=b  | a = a / b       |                                                                                                                                  |
-|   %=     | a%=b  | a = a % b       |                                                                                                                                  |
-|   &=     | a&=b  | a = a & b       |  If both bits compared are 1, it sets the result to 1. Otherwise it returns 0.   (bit operators)                                 |
-|   |=     | a|=b  | a = a | b       |  If at least one of the two bits compared is 1, it sets the result to 1. Otherwise it returns 0.     (bit operators)             |
-|   ^=     | a^=b  | a = a ^ b       |  If one of the compared bits is 0 and the other 1, the result is 1. If both bits are equal, the result is 0.     (bit operators) |
-|   <<=    | a<<=b | a = a << b      |  A shift to the left in B positions.     (bit operators)                                                                         |
-|   >>=    | a>>=b | a = a >> b      |  A shift to the right in B positions, takes into account the sign.   (bit operators)                                             |
-|   >>>=   | a>>>=b| a = a >>> b     |  A shift to the right in B positions, does not take into account the sign.   (bit operators)                                     |
+<table>
+    <tr>
+      <th>OPERATOR</th>
+      <th>USE</th>
+      <th>OPERATION</th>
+      <th></th>
+    </tr>
+    <tr>
+      <td> += </td>
+      <td> a+=b </td>
+      <td> 
+        a = a + b
+      </td>
+      <td> </td>      
+    </tr>
+    <tr>
+      <td> -= </td>
+      <td> a-=b </td>
+      <td> 
+        a = a - b
+      </td>
+      <td> </td>      
+    </tr>
+    <tr>
+      <td> *= </td>
+      <td> a*=b </td>
+      <td> 
+        a = a * b
+      </td>
+      <td> </td>      
+    </tr>
+    <tr>
+      <td> /= </td>
+      <td> a/=b </td>
+      <td> 
+        a = a / b
+      </td>
+      <td> </td>      
+    </tr>
+    <tr>
+      <td> %= </td>
+      <td> a%=b </td>
+      <td> 
+        a = a % b
+      </td>
+      <td> </td>      
+    </tr>
+    <tr>
+      <td> &= </td>
+      <td> a&=b </td>
+      <td> 
+        a = a & b
+      </td>
+      <td>
+        If both bits compared are 1, it sets the result to 1. Otherwise it returns 0.   (bit operators)
+      </td>      
+    </tr>
+    <tr>
+      <td> |= </td>
+      <td> a|=b </td>
+      <td> 
+        a = a | b
+      </td>
+      <td> 
+        If at least one of the two bits compared is 1, it sets the result to 1. Otherwise it returns 0.     (bit operators)
+      </td>      
+    </tr>
+    <tr>
+      <td> ^= </td>
+      <td> a^=b </td>
+      <td> 
+        a = a ^ b
+      </td>
+      <td> 
+        If one of the compared bits is 0 and the other 1, the result is 1. If both bits are equal, the result is 0.     (bit operators)
+      </td>      
+    </tr>
+    <tr>
+      <td> <<= </td>
+      <td> a<<=b </td>
+      <td> 
+        a = a << b
+      </td>
+      <td> 
+         A shift to the left in B positions.     (bit operators) 
+      </td>      
+    </tr>
+    <tr>
+      <td> >>= </td>
+      <td> a>>=b </td>
+      <td> 
+        a = a >> b
+      </td>
+      <td> 
+        A shift to the right in B positions, takes into account the sign.   (bit operators)
+      </td>      
+    </tr>
+    <tr>
+      <td> >>>= </td>
+      <td> a>>>=b </td>
+      <td> 
+        a = a >>> b
+      </td>
+      <td> 
+        A shift to the right in B positions, does not take into account the sign.   (bit operators)
+      </td>      
+    </tr>
+    
 
 
 ### ( operator &  &= )
