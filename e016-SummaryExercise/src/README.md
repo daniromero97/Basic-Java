@@ -2,7 +2,7 @@
     * If the change is negative, obtain the absolute value.
     * Round if the change has more than two decimals
     * Example output:
-
+        ```
         ### CHANGE = 73.05$ ###
         OPTIMAL CHANGE:
         500$  --> 0
@@ -20,3 +20,4 @@
         0.05$ --> 1
         0.02$ --> 0
         0.01$ --> 0
+        ```
