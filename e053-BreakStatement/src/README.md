@@ -1,7 +1,6 @@
 - The instruction "break" allows to finish the execution of the loop that contains said instruction.
-
-- Example:
-
+    - Example:
+        ```   
         int num =0;
         while(num<=100)
         {
@@ -12,8 +11,9 @@
         System.out.println("Out of while-loop");
 
 
-        Output:
+        // Output:
             Value of variable is: 0
             Value of variable is: 1
             Value of variable is: 2
             Out of while-loop
+        ```    

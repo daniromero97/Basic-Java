@@ -1,5 +1,6 @@
 - Simulate throwing a die "n" times and show statistics.
 - Example:
+    ```
     input:
         300
     output:
@@ -13,3 +14,4 @@
         |  side 5 |      42 |          14% |
         |  side 6 |      45 |          15% |
         ------------------------------------
+    ```    

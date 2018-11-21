@@ -1,9 +1,10 @@
 - Syntax of for loop:
-
+    ```
     for (initialization; termination; increment)
     {
         statement(s)
     }
+    ```
 
 - When using this version of the for statement, keep in mind that:
     * The initialization expression initializes the loop; it's executed once, as the loop begins.

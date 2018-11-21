@@ -6,9 +6,9 @@
 
 - expression ? expression : expression
 - Example:
-
+    ```
     a = (a>0)? 1 : b+2;      // if true, a=1, else, a=b+2
-    -------- equals --------
+    // -------- equals --------
     if(a>0) a = 1;
     else a = b+2;
-
+    ```

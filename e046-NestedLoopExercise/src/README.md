@@ -1,6 +1,6 @@
 - Show the "n" first prime.
 - Example:
-
+    ```
     input:
         20
     output:
@@ -12,3 +12,4 @@
         13
         17
         19
+    ```    

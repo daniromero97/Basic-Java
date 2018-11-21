@@ -3,10 +3,14 @@
 - The capacity is the number of buckets in the hash table, and the initial capacity is simply the capacity at the time the hash table is created.
 
 - Create a Hashtable (two forms):
+    ```
     Hashtable ht1 = new Hashtable();
+    // --------- or ----------
     Hashtable<Integer, String> ht2 = new Hashtable<Integer, String>();
-
-- Most used methods:
+    ```
+    
+### Most used methods:
+```
     // Add an item to the list in n position
         ht1.put(n, a);
 
@@ -40,3 +44,4 @@
     // Convert the hashtable to an enumeration object
         Enumeration<String> elements = ht1.elements();
         Enumeration<Integer> keys = ht1.keys();
+```    

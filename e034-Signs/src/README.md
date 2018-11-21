@@ -3,4 +3,4 @@
 
 - Example:
     * Make a program that reads 5 numbers and get the sum of the first 3 odd.
-        If there were no 3 odd, the result would be 0.
+    * If there were no 3 odd, the result would be 0.

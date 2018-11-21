@@ -1,5 +1,6 @@
 - Drawing of figures.
-- Output:
+    ```
+    Output:
         *
         + +
         + a +
@@ -10,3 +11,4 @@
         + a a a a a a +
         + a a a a a a a +
         * + + + + + + + + *
+    ```    
