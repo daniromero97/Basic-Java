@@ -18,10 +18,18 @@ public class Main
         arrayList.add("is");
         arrayList.add("a");
         arrayList.add("test");
-        writeFile(new File("src/test.txt"), arrayList);
+        writeFile("src/test.txt", arrayList);
 
         String info = readFile(new File("src/test.txt"));
         System.out.println(info);
+
+        /*
+        Output (First execution):
+            This
+            is
+            a
+            test
+        */
     }
 
     public String readFile(File file)
@@ -65,13 +73,13 @@ public class Main
         return info.toString();
     }
 
-    public void writeFile(File file, ArrayList<String> info)
+    public void writeFile(String path, ArrayList<String> info)
     {
         FileWriter fileWriter = null;
         PrintWriter printWriter;
         try
         {
-            fileWriter = new FileWriter(file.getPath(), true);
+            fileWriter = new FileWriter(path, true);
             printWriter = new PrintWriter(fileWriter);
 
             for (String s : info) printWriter.println(s);
